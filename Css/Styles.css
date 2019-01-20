@@ -7,6 +7,12 @@
   padding-top: 15px;
   color: white;
 }
+.dir-ltr{
+  direction: ltr !important
+}
+header{
+  background: white;
+}
 .new-news a {
   background-color: #2d5fb9;
   border-radius: 2px;
@@ -71,4 +77,14 @@
 }
 .navbar ul li.active a{
   color: #bbbbbb
+}
+.user-area-box .card-footer .btn-group a:first-child,
+.user-area-box .card-footer .btn-group a:last-child{
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}
+.user-area-box .card-footer .btn-group a{
+  color: #8c8888;
+  background-color: #e4e4e4;
+  border-color: #e4e4e4;
 }
